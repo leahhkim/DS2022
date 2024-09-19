@@ -4,7 +4,7 @@
 cd ../people
 
 #look for this file in each dir
-target_file="READ_ME.md"
+target_file='README.md'
 
 # loop through each dir and spit out first line of the file
 for dir in $(find . -type d); do
